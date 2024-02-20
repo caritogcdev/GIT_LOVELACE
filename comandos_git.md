@@ -25,3 +25,23 @@ user.name: al usuario en la posición name le vamos a colocar tal nombre
 - git config --global --edit
 ### Para listar
 - git config --global --list
+
+
+## Como iniciar git en un directorio
+
+- git init
+
+## Pasos para crear una versión de nuestro código
+
+1. Agregar todos los archivos al commit
+
+- git add .
+- git add *.js // agrega todos los archivos que tengan la extensión js por ejemplo
+- git add styles.css
+
+
+## Comandos para saber el estado de nuestros archivos
+
+- git status
+
+
