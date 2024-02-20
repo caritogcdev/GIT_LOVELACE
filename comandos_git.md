@@ -31,6 +31,15 @@ user.name: al usuario en la posición name le vamos a colocar tal nombre
 
 - git init
 
+## Comandos para saber el estado de nuestros archivos
+
+- git status
+
+## COmando para listar las versiones de mi proyecto
+
+- git log
+- git log --oneline
+
 ## Pasos para crear una versión de nuestro código
 
 1. Agregar todos los archivos al commit
@@ -40,8 +49,11 @@ user.name: al usuario en la posición name le vamos a colocar tal nombre
 - git add styles.css
 
 
-## Comandos para saber el estado de nuestros archivos
+2. Tomar la foto del código (Crear una nueva versión)
 
-- git status
+- git commit -m "Nombre del commit" // Mensaje de menos de 50 palabras
 
 
+## Nota - comando con el que se arregló el edit de las credenciales
+
+- nano /home/riwip4o-007/.gitconfig
