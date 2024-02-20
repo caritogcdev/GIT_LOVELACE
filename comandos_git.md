@@ -35,10 +35,14 @@ user.name: al usuario en la posición name le vamos a colocar tal nombre
 
 - git status
 
-## COmando para listar las versiones de mi proyecto
+## Comando para listar las versiones de mi proyecto
 
 - git log
 - git log --oneline
+
+## Comando para cambiar de versión
+
+- git cheackout <Id del commit o nombre e la rama>
 
 ## Pasos para crear una versión de nuestro código
 
@@ -57,3 +61,4 @@ user.name: al usuario en la posición name le vamos a colocar tal nombre
 ## Nota - comando con el que se arregló el edit de las credenciales
 
 - nano /home/riwip4o-007/.gitconfig
+
