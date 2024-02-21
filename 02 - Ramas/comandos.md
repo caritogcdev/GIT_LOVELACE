@@ -17,6 +17,16 @@ git checkout -b nombre_rama // Crear rama y moverse a la misma rama que creó --
 
 git branch -D nombre_rama
 
-# COmando para cabiar el nombre de una rama
+# Comando para cabiar el nombre de una rama
 
 git branch -M nuevo_nombre // primero debo irme a la rama que le voy a cambiar el nombre antes de ejecutar este comando
+
+# Comando para eliminar un archivo de git
+
+git rm --cached  nombre_archivo
+
+# Comando para crear nuestros propios comandos
+
+## Siempre lleva la palabra reservada alias punto el nombre del comando o abreviación
+git config --global alias.lg 'log --oneline'
+
