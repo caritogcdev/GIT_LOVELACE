@@ -42,7 +42,10 @@ user.name: al usuario en la posición name le vamos a colocar tal nombre
 
 ## Comando para cambiar de versión
 
-- git cheackout <Id del commit o nombre e la rama>
+- git checkout <Id del commit o nombre e la rama>
+
+## Luego para cambiarme del commit a la rama, escribo:
+- git checkout main // nombre de la rama  porque master ya no se debe usar
 
 ## Pasos para crear una versión de nuestro código
 
