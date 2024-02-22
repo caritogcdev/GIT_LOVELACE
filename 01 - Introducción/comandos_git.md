@@ -4,7 +4,7 @@
 
 ### Esto equivale a un h3
 
-- git - v
+- git -v
 - git --version
 
 ## Comandos para configuración inicial de git

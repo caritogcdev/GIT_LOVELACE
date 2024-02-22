@@ -26,3 +26,4 @@ git push --all // sube todas las ramas
 git pull
 git pull nombre_conexion nombre_rama
 
+# Titulo 2
